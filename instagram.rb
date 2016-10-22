@@ -12,7 +12,7 @@ module Jekyll
 
     def media_for(hash)
       url = "//instagram.com/p/#{hash}/media/?size=l"
-      "<img src='#{url}' style='width:100%;' />"
+      "<a href='//instagram.com/p/#{hash}'><img src='#{url}' style='width:100%;' /></a>"
     end
 
   end
